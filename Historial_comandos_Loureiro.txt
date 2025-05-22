@@ -1,0 +1,123 @@
+ls
+cd repogit
+ls
+cd ..
+ssh-keygen -t ed25519
+ls -l .ssh/
+sudo systemctl status sshd
+cat .ssh/id_ed25519.pub
+cat .sshed25519.ub
+vagrant halt
+cat .ssh/id_ed25519.pub
+vagrant halt
+vagrant status
+exit
+cat .ssh/id_ed25519.pub
+git clone git@github.com:AgustinaLoureiro/AySO.git
+ls
+exit
+ls
+cd vmvagrant_repo
+cd AySO
+ls
+history > historial.txt
+ls
+git status
+git add .
+git status
+git commit -m "clase 3"
+git config --global user.email "agusloureiro@hotmail.com"
+git config --global user.name "AgustinaLoureiro"
+git commit -m "commit clase3"
+git push
+ls
+cat << FIN > texto.txt
+linea 1
+linea 2
+linea 3
+FIN
+
+cat texto.txt
+bc <<< 1+2
+history > historial.txt
+cat historial.txt
+exit
+echo "hola mundo"|wc
+cat [archivo1]|head-n[15]
+cat historial.txt | head -n10
+cd AySO
+cat historial.txt | head -n10
+cat historial.txt | head -n10 | grep -n ls
+grep -i /proc/cpuinfo
+x
+exit
+grep -i proce /proc/cpuinfo
+cat /proc/cpuinfo | grep -i proce
+cat /proc/cpuinfo | grep -i proce | head -n1
+cat historial.txt
+cd AySO
+cat historial.txt
+echo "linea final" >> historial.txt
+cat historial.txt
+git status
+git add .
+git status
+git commit -m "terminado el PDF clase 3"
+git push
+pwd
+echo hola
+echo Buen día
+echo $HOME
+ls -l
+ssh-keygen -t ed25519
+vagrant exit
+exit
+ssh-keygen -t ed25519
+cat ~/.ssh/id_ed25519.pub
+cd ~
+mkdir repogit
+cd repogit
+git clone git@github.com:tuusuario/TP_AySO.git
+cd TP_AySOexit
+exit
+cd
+cd repogit
+git clone git@github.com:AgustinaLoureiro/TP_AySO.git
+cd TP_AySO
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep -i home_url /etc/os-release
+grep -i home_url /etc/os-release > datos_url.txt
+cat datos_url.txt
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+cat datos_usuario.txt 
+git add .
+git config --global user.email "agusloureiro@hotmail.com"
+git config --global user.name "AgustinaLoureiro"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git push
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+git add datos_usuario.txt 
+git commit -m "feat: Añadiendo información de CPU"
+git push
+cat <<EOF >> README.md 
+Alumno: Agustina Loureiro
+División: 114
+Turno: Mañana
+EOF
+
+git add README.md datos_usuario.txt 
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+mkdir -p ~/TP_AySO/materia1/uni1 ~/TP_AySO/materia1/uni2 ~/TP_AySO/materia1/uni3 ~/TP_AySO/materia2/uni1 ~/TP_AySO/materia2/uni2 ~/TP_AySO/materia2/uni3
+sudo apt install tree
+tree ~/TP_AySO
+echo 'mkdir -p ~/TP_AySO/ejercicios/practicos ~/TP_AySO/teoria' > script_dir.sh
+chmod +x script_dir.sh
+git add .
+git commit -m "ADD: Añadiendo script para estructura de directorios"
+git push
+history -a
